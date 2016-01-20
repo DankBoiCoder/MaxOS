@@ -1,5 +1,6 @@
 # Max20091's MaxOS
 
+## This project is dead from now :(
 Note:
  * Read Readme before using and License before Re-Distribute
  * These batch file need UAC so you will need admin account on your windows
