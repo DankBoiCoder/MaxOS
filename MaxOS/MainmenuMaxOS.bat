@@ -64,7 +64,6 @@ if %ERRORLEVEL% == 6 GOTO MainMenu
 :SystemFile
 Title System apps
 cls
-echo This may access your computer, not the MaxOS
 cmdmenusel f8%f0 "View Kernel" "View Bootloader" "Check 32 bit or 64 bit CPU and OS" "max20091 BootMark batch edition" "Wifi Hotspot Control" "Power Timer" "Back to Main menu"
 if %ERRORLEVEL% == 1 call cls & cls & System\Kernel.bat & GOTO SystemFile
 if %ERRORLEVEL% == 2 call cls & cls & System\Bootloader.bat & GOTO SystemFile
