@@ -11,8 +11,6 @@ This is my first OS made in batch and these are free so you can download it.
 
 If you want to distribute, you need to modify all these file and add credit with my name.
 
-Get your free copy today!:+1:
-
 
 ### Stuff used to make this:
 
