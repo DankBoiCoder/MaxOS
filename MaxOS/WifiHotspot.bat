@@ -72,8 +72,8 @@ ECHO Delete "Press 1 to return to menu" and using "GOTO MENU" command
 ECHO Added Vietnamese
 ECHO -
 ECHO v2.0 Final:
-ECHO Using ATUI Advanced Text based User Interface instead of TUI Text based User Interface
-ECHO Optimized and deleted useless command
+ECHO Using Advanced Text based User Interface instead of Text based User Interface
+ECHO Optimized and deleted useless commands
 ECHO Embedded inside MaxOS
 Pause
 GOTO MENU
@@ -99,7 +99,7 @@ if %ERRORLEVEL% == 8 call cls & cls & MainmenuMaxOS.bat
 cls
 netsh wlan show drivers
 ECHO Xong :)
-ECHO Xin kiem tra Hosted Network supported, neu no ghi "Yes" thi ban co the tao wifi hotspot.
+ECHO Xin kiem tra Hosted Network supported, neu ghi "Yes" thi ban co the tao wifi hotspot.
 pause
 GOTO MENUVI
 
@@ -150,7 +150,7 @@ ECHO Xoa "Press 1 to return to menu" va su dung cau lenh "GOTO MENU"
 ECHO Them tieng Viet
 ECHO -
 ECHO v2.0 Final:
-ECHO Dung ATUI Advanced Text based User Interface Thay vi TUI Text based User Interface
+ECHO Dung Advanced Text based User Interface thay cho Text based User Interface
 ECHO Xoa command khong su dung
 ECHO Nhung vao MaxOS
 pause
