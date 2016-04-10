@@ -1,7 +1,7 @@
 Option Explicit
 On Error Resume Next
 Dim Wsh, Time1, Time2, Result, PathFile, MsgResult, MsgA, AppName, KeyA, KeyB, TimeDiff
-MsgA = "Please close all running applications and click on OK."
+MsgA = "Please close all running applications before click OK"
 KeyA = "HKEY_CURRENT_USER\Software\RestartTime\"
 KeyB = "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run\RestartTime"
 AppName = "Max20091 BootMark VBS Edition"
